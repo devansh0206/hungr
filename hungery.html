@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUNGRY COURT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .menu-item h2 {
+            margin: 10px 0;
+        }
+        .menu-item p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0078D7;
+        }
+        .menu-item button {
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu-item button:hover {
+            background-color: #005BB5;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO HUNGRY COURT</h1>
+        <p>Your trusted partner for providing you the best and most delicious dishes.</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="services">
+        <div class="services">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="burger.jpg" alt="Delicious Burger">
+                    <h2>Burger</h2>
+                    <p>Rs. 129</p>
+                    <button>Order Now</button>
+                </div>
+              
+                <div class="menu-item">
+                    <img src="pizza.jpg" alt="Cheesy Pizza">
+                    <h2>Pizza</h2>
+                    <p>Rs. 199</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="panipuri.jpg" alt="Panipuri">
+                    <h2>Panipuri</h2>
+                    <p>Rs. 99</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="Gochujang-Noodles-Recipe-SQ.jpg" alt="noodles">
+                    <h2>Noodles</h2>
+                    <p>Rs. 149</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="chicken-manchurian-1.jpg" alt="manchurian">
+                    <h2>manchurian</h2>
+                    <p>Rs. 89</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="sandwich.jpg" alt="Sandwich">
+                    <h2>Sandwich</h2>
+                    <p>Rs. 119</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images.jpg" alt="fries">
+                    <h2>fries</h2>
+                    <p>Rs. 99</p>
+                </div><div class="menu-item">
+                    <img src="soda.webp" alt="coke">
+                    <h2>coke</h2>
+                    <p>Rs. 69</p>
+                </div>
+                <div class="menu-item">
+                    <img src="butter.webp" alt="butter">
+                    <h2>butter</h2>
+                    <p>Rs. 59</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="services">
+            <h2>About Us</h2>
+            <p>Hungry Court has been serving customers with excellence since 2000. Our mission is to deliver the best food experience to your taste.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="services">
+            <h2>Contact Us</h2>
+            <p>Have any questions or want to visit our outlet? Reach out below!</p>
+            <form>
+                <input type="text" name="name" placeholder="devansh singh" required>
+                <input type="email" name="email" placeholder="0206devansh singh" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Feedback</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Hungry Court. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
